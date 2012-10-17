@@ -1,4 +1,4 @@
 from feed import Feed
 
-class AtomFeed(Feed):
+class FacebookFeed(Feed):
   pass
