@@ -1,4 +1,10 @@
 from feed import Feed
 
 class AtomFeed(Feed):
-  pass
+  @staticmethod
+  def announceListen():
+    return "(A)tom"
+
+  @staticmethod
+  def canListen(c):
+    return c.upper()[0] == 'A'

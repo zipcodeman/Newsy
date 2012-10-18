@@ -1,4 +1,10 @@
 from feed import Feed
 
 class RSSFeed(Feed):
-  pass
+  @staticmethod
+  def announceListen():
+    return "(R)ss"
+
+  @staticmethod
+  def canListen(c):
+    return c.upper()[0] == "R"
