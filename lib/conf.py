@@ -1,7 +1,7 @@
-import twitter
-import facebook
-import atom
-import rss
+import twitterfeed
+import facebookfeed
+import atomfeed
+import rssfeed
 class Configuration:
   def __init__(self, filename):
     self.filename = filename
